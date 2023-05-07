@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #DCDCDC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    margin: 0rem;
+    overflow: hidden;
+}
+
+.bloco{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.arms{
+    width: 75%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    place-items: left;
+    gap: 2%;
+    padding: 0.5rem 1rem;
+}
+
+.arm{
+    position: relative;
+    width: 250px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    background-color: #C71585;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    place-items: right;
+    justify-content: center;
+}
+
+.b1{
+    width: 15%;
+    height: 40px;
+    background-color: #A9A9A9;
+    border-radius: 30px;
+    border: 2px solid black;
+    position: relative;
+    left: 15px;
+    top: 20px;
+    display: flex;
+}
+
+.s1{
+    width: 10%;
+    height: 20px;
+    background-color:#808080;
+    border-radius: 20px;
+    border: 2px solid #696969;
+    position: relative;
+    top: -10px;
+    left: 20px;
+    display: flex;
+}
+
+.b2{
+    width: 15%;
+    height: 40px;
+    background-color: #A9A9A9;
+    border-radius: 30px;
+    border: 2px solid black;
+    position: relative;
+    left: 15px;
+    top: 20px;
+    display: flex;
+}
+
+.s2{
+    width: 10%;
+    height: 20px;
+    background-color:#808080;
+    border-radius: 20px;
+    border: 2px solid #696969;
+    position: relative;
+    top: -10px;
+    left: 20px;
+    display: flex;
+}
+
+.b3{
+    width: 15%;
+    height: 40px;
+    background-color: #A9A9A9;
+    border-radius: 30px;
+    border: 2px solid black;
+    position: relative;
+    left: 15px;
+    top: 20px;
+    display: flex;
+}
+
+.s3{
+    width: 10%;
+    height: 20px;
+    background-color:#808080;
+    border-radius: 20px;
+    border: 2px solid #696969;
+    position: relative;
+    top: -10px;
+    left: 20px;
+    display: flex;
+}
+
+.l1{
+    width: 80%;
+    height: 2px;
+    border: 2px solid black;
+    position: relative;
+    top: -160px;
+    left: 20px;
+    display: flex;
+}
+
+.li1{
+    width: 80%;
+    height: 2px;
+    border: 2px solid black;
+    position: relative;
+    top: -130px;
+    left: 20px;
+    display: flex;
+}
+
+.lin1{
+    width: 80%;
+    height: 2px;
+    border: 2px solid black;
+    position: relative;
+    top: -100px;
+    left: 20px;
+    display: flex;
+}
+
+.l2{
+    width: 80%;
+    height: 2px;
+    border: 2px solid black;
+    position: relative;
+    top: -160px;
+    left: 20px;
+    display: flex;
+}
+
+.li2{
+    width: 80%;
+    height: 2px;
+    border: 2px solid black;
+    position: relative;
+    top: -130px;
+    left: 20px;
+    display: flex;
+}
+
+.lin2{
+    width: 80%;
+    height: 2px;
+    border: 2px solid black;
+    position: relative;
+    top: -100px;
+    left: 20px;
+    display: flex;
+}
+
+.l3{
+    width: 80%;
+    height: 2px;
+    border: 2px solid black;
+    position: relative;
+    top: -160px;
+    left: 20px;
+    display: flex;
+}
+
+.li3{
+    width: 80%;
+    height: 2px;
+    border: 2px solid black;
+    position: relative;
+    top: -130px;
+    left: 20px;
+    display: flex;
+}
+
+.lin3{
+    width: 80%;
+    height: 2px;
+    border: 2px solid black;
+    position: relative;
+    top: -100px;
+    left: 20px;
+    display: flex;
+}
+
+.p1{
+    width: 5%;
+    height: 90px;
+    background-color: #DCDCDC;
+    border: 2px solid #C0C0C0;
+    border-radius: 25px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+    display: flex;
+}
+
+.p2{
+    width: 5%;
+    height: 90px;
+    background-color: #DCDCDC;
+    border: 2px solid #C0C0C0;
+    border-radius: 25px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+    display: flex;
+}
+
+.p3{
+    width: 5%;
+    height: 90px;
+    background-color: #DCDCDC;
+    border: 2px solid #C0C0C0;
+    border-radius: 25px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+    display: flex;
+}
+
+.c1{
+    background: #7FFF00;
+    position: relative;
+    bottom: -230px;
+    height: 23px;
+}
+
+.c2{
+    background: #FF0000;
+    position: relative;
+    bottom: -230px;
+    height: 23px;
+}
+
+.c3{
+    background: yellow;
+    position: relative;
+    bottom: -230px;
+    height: 23px;
+}
